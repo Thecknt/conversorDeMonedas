@@ -1,14 +1,11 @@
 
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¾„‚8ÍÕÆíñ1J$bc3b2787-3d62-4884-a188-92ef1322f10d
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¾„‚8ˆôÇíñ1J$3fb32962-a39e-499b-9ab4-ab43ec3eadfe
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¾„‚8²æÈíñ1J$a188c186-60eb-42d0-b398-996adc3452bc
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¾„‚8ÍÕÆíñ1J$0dd55f98-f075-4eaf-abee-0c785c023b75
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¾„‚8ˆôÇíñ1J$e70e7337-2a0b-41f5-be7a-3126a16ccfc4
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¾„‚8²æÈíñ1J$b41bcc1b-0a0b-44a1-a7ac-6f7113889e07
 
-java:S2095"HUse try-with-resources or close this "HttpClient" in a "finally" clause.(¨ÚÔıÿÿÿÿ8™ôÇíñ1J$62191efd-1cf2-40d6-ad69-9a57dd6de6aa
-~	java:S125"<This block of commented-out lines of code should be removed.(–•Ïš8ÓÅ¤íñ1J$60821012-a2c5-468f-9e0c-8ecdc860f6e1
-~	java:S125&"<This block of commented-out lines of code should be removed.(ôò‹î8áÅ¤íñ1J$b24ea90d-9ab3-42d8-8390-205971998f39
-~	java:S125+"<This block of commented-out lines of code should be removed.(ÖºÅ¥8ôÚÑíñ1J$ba4e9899-98d1-4a8a-916d-d2495b3657ff
-r	java:S106/"+Replace this use of System.out by a logger.(ğõó—úÿÿÿÿ8‘çµíñ1J$92769c44-7e6f-4668-bfed-d73095037078
+java:S2095"HUse try-with-resources or close this "HttpClient" in a "finally" clause.(¨ÚÔıÿÿÿÿ8™ôÇíñ1J$7fdaed9a-9f79-442a-a905-5d8382a4a5e9
+r	java:S106*"+Replace this use of System.out by a logger.(ğõó—úÿÿÿÿ8‘çµíñ1J$6ef08ca9-fdb8-4678-a17f-7dbcddfde020
 †
-java:S1128">Remove this unused import 'com.google.gson.FieldNamingPolicy'.(¶Øùÿÿÿÿ8€ƒÏíñ1J$288d65a2-284f-4579-9b60-e9f94724bef8
+java:S1128">Remove this unused import 'com.google.gson.FieldNamingPolicy'.(¶Øùÿÿÿÿ8€ƒÏíñ1J$01e729bf-9bb8-4633-8dd2-806fcaceb9fe
 €
-java:S1128"8Remove this unused import 'com.google.gson.GsonBuilder'.(”«à¬ÿÿÿÿÿ8€ƒÏíñ1J$62cbafdd-3341-4429-a5fc-c49e03036b92
+java:S1128"8Remove this unused import 'com.google.gson.GsonBuilder'.(”«à¬ÿÿÿÿÿ8€ƒÏíñ1J$af871d6e-6913-4e9b-ab6b-cc95f51bdb45

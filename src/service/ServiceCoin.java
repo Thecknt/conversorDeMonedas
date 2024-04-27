@@ -14,37 +14,32 @@ import java.net.http.HttpResponse;
 
 public class ServiceCoin {
 
-    //https://v6.exchangerate-api.com/v6/571c2f2b34e6ec3fb300e8a1/latest/USD
-    //571c2f2b34e6ec3fb300e8a1
- public void getResponse(String base_code, String target_code, Double conversion_result) throws IOException, InterruptedException {
+    public void getResponse(String base_code, String target_code, Double conversion_result) throws IOException, InterruptedException {
 
 
-     String url ="https://v6.exchangerate-api.com/v6/571c2f2b34e6ec3fb300e8a1/pair/"+base_code+"/"+target_code+"/"+ conversion_result;
-     //String url = "https://v6.exchangerate-api.com/v6/571c2f2b34e6ec3fb300e8a1/latest/"+ coinIn;
-     HttpClient client = HttpClient.newHttpClient();
-     HttpRequest request = HttpRequest.newBuilder()
-             .uri(URI.create(url))
-             .build();
+        String url = "https://v6.exchangerate-api.com/v6/571c2f2b34e6ec3fb300e8a1/pair/" + base_code + "/" + target_code + "/" + conversion_result;
+        HttpClient client = HttpClient.newHttpClient();
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(url))
+                .build();
 
-     client.sendAsync(request, HttpResponse.BodyHandlers.ofString())
-             .thenApply(HttpResponse::body)
-            // .thenAccept(System.out::println)
-             .join();
+        client.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                .thenApply(HttpResponse::body)
+                .join();
 
-     HttpResponse<String> response = client
-             .send(request, HttpResponse.BodyHandlers.ofString());
+        HttpResponse<String> response = client
+                .send(request, HttpResponse.BodyHandlers.ofString());
 
-     String json = response.body();
-     //System.out.println(response.body());
+        String json = response.body();
 
-     Gson gson = new Gson();
+        Gson gson = new Gson();
 
-   CoinsApi coinsApi = gson.fromJson(json, CoinsApi.class);
-    // System.out.println(coinsApi);
+        CoinsApi coinsApi = gson.fromJson(json, CoinsApi.class);
 
-     Coins coins = new Coins(coinsApi);
 
-     System.out.println(coins);
- }
+        Coins coins = new Coins(coinsApi);
+
+        System.out.println(coins);
+    }
 
 }

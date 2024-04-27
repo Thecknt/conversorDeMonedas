@@ -16,7 +16,7 @@ public class Coins {
     public Coins(CoinsApi coinsApi) {
         this.coinIn = coinsApi.base_code();
         this.coinOut = coinsApi.target_code();
-        this.result =Double.valueOf(coinsApi.conversion_result());
+        this.result = Double.valueOf(coinsApi.conversion_result());
     }
 
     public String getCoinIn() {
@@ -46,8 +46,8 @@ public class Coins {
     @Override
     public String toString() {
         return "La conversion resultante es: " +
-                "\nMoneda Ingresada: " + coinIn  +
-                "\nMoneda a convertir: " + coinOut  +
-                "\nResultado de la conversion: " + result +" "+coinOut;
+                "\nMoneda Ingresada: " + coinIn +
+                "\nMoneda a convertir: " + coinOut +
+                "\nResultado de la conversion: " + result + " " + coinOut;
     }
 }
